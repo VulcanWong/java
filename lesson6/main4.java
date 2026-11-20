@@ -11,7 +11,8 @@ class child extends Parent{
 
 class Main4 {
     public static void main(String[] args) {
-
+        child kid = new child();
+        kid.privateMethod();
         System.out.println("Hello world!");
     }
 }
