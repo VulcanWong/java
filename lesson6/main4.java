@@ -8,7 +8,7 @@ class child extends Parent{
         System.out.println("I'm inside private method");
     }
 }
-
+ 
 class Main4 {
     public static void main(String[] args) {
         child kid = new child();
